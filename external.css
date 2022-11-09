@@ -1,6 +1,24 @@
-h1{
-    background-color: blueviolet;
+@font-face {
+    font-family:heading;
+    src: url(fonts/STENCIL.TTF);
+    
 }
-p{
-    color: rgb(3, 74, 50);
+@font-face {
+    font-family:heading2 ;
+    src: url(fonts/SaltDebrisPersonalUse-8MdgA.otf);
+}
+   
+h1{
+    color: blue;
+    font-size:24px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: heading2;
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+
 }
