@@ -1,0 +1,30 @@
+@font-face {
+    font-family: heading;
+    src: url(fonts/Storm\ Gust.otf);
+}
+
+
+h1{
+    font-family: heading;
+    color: brown;
+}
+
+p{color: rgb(3, 60, 41);
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    word-spacing: 2px;
+
+}
+
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+ text-shadow: 1px 1px 2px blue;
+}
+
+a{
+    text-decoration: none;
+    text-overflow: ellipsis;
+}
