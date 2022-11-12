@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+    
+}
+h2{
+    color: rgb(34, 212, 49);
+    
+}
+h3{
+ color: rgba(20, 30, 40, 50);
+}
+
+p{
+    color: #e15f7e;
+}
+.one{
+    width: 500px;
+    height: 500px;
+    color: rgb(0, 255, 13);
+    background-color: aquamarine;
+    background-image:url(images/image1.jpg);
+    background-size: 300px, 300px;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+h1{
+    position: absolute;
+    left: 300px;
+    top: 500px;
+}
