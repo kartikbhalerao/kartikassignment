@@ -1,0 +1,19 @@
+
+h1{
+border: 3px black;
+color: blue;
+border-style: groove;
+border-width: thick;
+}
+
+h2{
+    border: 4px aqua;
+    color: rgb(86, 245, 13);
+    border-style: double;
+    border-width: thin;
+}
+h3{
+    border: 5px chocolate;
+    border-width: thick;
+    border-style: dashed;
+}

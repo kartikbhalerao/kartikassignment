@@ -1,3 +1,6 @@
+
+
+
 h1{
     color: blue;
     
@@ -19,12 +22,32 @@ p{
     color: rgb(0, 255, 13);
     background-color: aquamarine;
     background-image:url(images/image1.jpg);
-    background-size: 300px, 300px;
+    background-size: 400px 400px;
     background-position:center;
     background-repeat: no-repeat;
+    overflow: auto;
+    background-attachment: scroll;
 }
 h1{
     position: absolute;
     left: 300px;
     top: 500px;
+}
+h2{
+    color: black;
+}
+h3{
+    color: black;
+}
+h4{
+    color: black;
+}
+h5{
+    color: black;
+}
+h6{
+    color: black;
+}
+p{
+    color: black;
 }
