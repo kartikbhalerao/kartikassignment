@@ -1,6 +1,54 @@
-.one{
-    background-color: brown;
+.one{  background-color: brown;
     width: 200px;
     height: 200px;
+    border: 5px solid;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: 7;
+}
+
+.two{  background-color: rgb(42, 165, 65);
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: 5;
+}
+.three{  background-color: rgb(118, 42, 165);
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    z-index: 0;
+}
+.four{  background-color: rgb(236, 225, 12);
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    z-index: 0;
+}
+
+  
+h1{
+    border-style: solid;
+    cursor: crosshair;
+}
+h2{
+    cursor: grab;
+    color: rgb(153, 127, 255);
+
+}
+p{
+    cursor: ew-resize;
+    border-style: dashed;
+    display: inline;
 }
   
