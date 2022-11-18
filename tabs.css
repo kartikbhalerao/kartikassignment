@@ -1,0 +1,20 @@
+img{
+    height: 500px;
+    width: 500px;
+    display: block;
+
+
+
+
+} li{
+    float: left;
+    padding: 20px;
+    list-style: none;
+    background-color: aquamarine;
+  
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(14, 65, 110);
+}
