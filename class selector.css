@@ -1,0 +1,43 @@
+
+
+
+
+.one{
+    font-size: 24px;
+    width: 200px;
+    display: inline;
+    float: left;
+    padding: 30px;
+    text-align: justify;
+    margin: 10px;
+    border: solid 5px;
+    color: rgb(246, 239, 253);
+    background-color: rgb(73, 9, 163);
+
+}
+.two{
+    font-size: 24px;
+    width: 200px;
+    display: inline;
+    float: left;
+    padding: 30px;
+    text-align: justify;
+    margin: 10px;
+    border: solid 5px;
+    color: blue;
+    background-color: brown;
+
+}
+.three{
+    font-size: 24px;
+    width: 200px;
+    display: inline;
+    float: left;
+    padding: 30px;
+    text-align: justify;
+    margin: 10px;
+    border: solid 5px;
+    color: rgb(8, 87, 61);
+    background-color: rgb(224, 130, 15);
+
+}
