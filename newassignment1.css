@@ -1,0 +1,51 @@
+
+
+
+    
+    
+#onome{
+    border: 20px 20px solid brown;
+}
+
+.one{  background-color: rgb(226, 255, 11);
+    width: 600px;
+    height: 600px;
+    border: 5px solid;
+    position: absolute;
+  }
+
+
+.three{
+    
+    position: absolute;
+    left: 305px;
+    top: 5px;
+    z-index: 1;
+}
+.four{
+    
+  
+    display: inline;
+    float: left;
+   margin: 10px;
+    border: solid 300px 20px ;
+  
+    background-color: brown;
+
+}
+
+ 
+
+  
+
+
+
+
+
+    
+
+
+
+
+  
+   
