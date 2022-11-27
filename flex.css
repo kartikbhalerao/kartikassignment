@@ -1,0 +1,70 @@
+main{
+    border:4px solid black;
+     display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+header{
+    background-color: aqua;
+    height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+    background-color: rgb(6, 77, 53);
+   width: 20%;
+   
+   display: flex;
+   flex-direction: row;
+}
+
+.heading{
+    background-color: blueviolet;
+    width: 60%;
+}
+
+.menubar{
+    background-color: coral;
+    width: 40%;
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
+section{
+    background-color: orange;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.one{
+    background-color: darkkhaki;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.two{
+    background-color: rgb(107, 189, 112);
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.three{
+    background-color: rgb(226, 63, 13);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    background-color: grey;
+    height: 50px;
+}
