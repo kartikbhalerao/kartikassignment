@@ -1,0 +1,24 @@
+main{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: blue;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.logo{
+    background-color: aquamarine;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.heading{
+    background-color: blueviolet;
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 2;
+}

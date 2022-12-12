@@ -4,8 +4,7 @@ main{
     flex-direction: column;
     height: 700px;
     width: 700px;
-    margin: 10px;
-    justify-content: space-evenly;
+  
   
 }
 header{
@@ -13,7 +12,7 @@ header{
     display: flex;
    
     height: 200px;
-    justify-content: space-between;
+    margin-bottom: 10px;
     
 }
 
@@ -22,17 +21,20 @@ header{
     background-color: blueviolet;
     flex-basis:400px;
     order: 3;
+    margin-inline: 10px;
    
 
 }
 .heading{
     background-color: rgb(223, 226, 43);
     flex-basis: 300px;
+    margin-inline: 10px;
 
 }
 .menu{
     background-color: rgb(55, 226, 43);
     flex-basis: 400px;
+    margin-inline: 10px;
 
 }
 
@@ -40,22 +42,27 @@ section{
     background-color: aqua;
     display: flex;
     height: 400px;
+   margin-bottom: 10px;
 }
 .one{
     background-color: rgb(125, 115, 230);
     flex-basis:400px;
     order: 2;
+    margin-inline: 10px;
+   
    
 
 }
 .two{
     background-color: rgb(211, 94, 40);
     flex-basis: 300px;
+    margin-inline: 10px;
 
 }
 .three{
     background-color: rgb(223, 27, 158);
     flex-basis: 400px;
+    margin-inline: 10px;
 
 }
 footer{
