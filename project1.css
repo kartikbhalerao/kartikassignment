@@ -4,18 +4,29 @@
 }
 .maincontainer{
     display: flex;
+    flex-wrap: wrap;
+    
     
 }
 aside{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    flex-grow: 1;
    flex-basis: 50px;
     background-color: aquamarine;
-    
- 
- 
-}
+   }
 .mainsection{
-   flex-basis: 200px;
-   flex-grow: 2;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    flex-grow: 2;
+   flex-basis: 500px;
+    background-color: rgb(174, 127, 255);
+  
+  
 
     
 
@@ -29,11 +40,13 @@ li{
 .login{
     display: flex;
     justify-content: end;
+    flex-wrap: wrap;
 }
 .logmenu{
     display: flex;
     background-color: rgb(224, 213, 199);
     flex-direction: column;
+    flex-wrap: wrap;
 }
 menu{
     display: flex;
@@ -48,6 +61,10 @@ menu{
 }
 .para-image{
     display: flex;
+    flex-wrap: wrap;
+}
+.para p{
+    flex-basis: 400px;
 }
 .right{
     display: flex;
@@ -62,19 +79,55 @@ menu{
 img{
     width: 300px;
     height: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 h1{
-    color: crimson;
+    color: rgb(23, 21, 21);
+    background-color: lightseagreen;
 }
 a{
     text-decoration: none;
 }
+.footer{
+    background-color: darkolivegreen;
+    text-align: center;
+    flex-basis: 200px;
+   
+    
+}
 
- @media all and (max-width : 800px){
+ @media all and (min-width:200px){
     h1{
-        color: coral;
         background-color: chartreuse;
     }
+     @media all and (min-width:600px) {
+        h1{
+            background-color: blue;
+        }
+       
+        
+        
+     }
+}
  
- }
+
+   
     
+    
+ 
+ /* @media all and (max-width:800px){
+    h1{
+        background-color: rgb(205, 16, 35);
+    }
+}
+@media all and (max-width:1000px){
+    h1{
+        background-color: rgb(49, 193, 30);
+    }
+}
+@media all and (max-width:1200px){
+    h1{
+        background-color: rgb(251, 9, 166);
+    }
+} */
