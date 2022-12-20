@@ -1,0 +1,29 @@
+main{
+    background-color: aqua;
+   height: 80vh;
+  
+}
+header{
+    background-color: blue;
+    height: 10vh;
+}
+section{
+    background-color: rgb(186, 35, 131);
+    height: 60vh;
+}
+footer{
+    background-color: brown;
+    height: 10vh;
+}
+h1{
+    font-size: 5vw;
+}
+p{
+    font-size: 2vw;
+}
+p b{
+    font-size: 2em;
+}
+i{
+    font-size: 2rem;
+}

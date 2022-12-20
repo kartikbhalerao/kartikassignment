@@ -17,6 +17,51 @@ aside{
    flex-basis: 50px;
     background-color: aquamarine;
    }
+
+
+
+
+
+
+li ul{
+    background-color: blue;
+    display: none;
+    
+}
+li:hover ul{
+    display: flex;
+    flex-direction: column;
+}
+li ul li ul li{
+    display: none;
+}
+li ul li:hover ul li{
+    display:flex;
+    flex-direction: column;
+}
+li ul li ul{
+    position: relative;
+    left: -125px;
+}
+li a{
+    color: aliceblue;
+}
+li ul li ul{
+    background-color: brown;
+}
+li ul{
+    position: absolute;
+}
+li ul li ul{
+    position: relative;
+
+}
+li>ul>li>ul{
+    position: absolute;
+}
+li :hover ul{
+    display: flex;
+}
 .mainsection{
     flex-wrap: wrap;
     display: flex;
@@ -51,6 +96,7 @@ li{
 menu{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .left{
     display: flex;
@@ -96,6 +142,7 @@ a{
    
     
 }
+
 
  @media all and (min-width:200px){
     h1{
