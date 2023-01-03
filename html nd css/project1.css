@@ -17,6 +17,46 @@ aside{
    flex-basis: 50px;
     background-color: aquamarine;
    }
+#earth{
+    transform: rotate(180deg);
+        animation-iteration-count: infinite;
+   }
+/* 
+   .heading h1{ 
+    transform: scale(2);
+    transition: 2s;
+   } */
+
+
+  
+   @keyframes kartik-b{
+  0%{
+    color: aquamarine;
+   
+    font-size: 30px;
+  }
+  30%{
+    color: rgb(15, 238, 49);
+    
+    font-size: 60px;
+
+  }
+  60%{
+    color: rgb(244, 126, 16);
+    
+    font-size: 40px;
+  }
+  100%{
+    color: rgb(235, 247, 12);
+
+    font-size: 30px;
+  }
+   }
+   #sania{
+    animation-name: kartik-b;
+    animation-duration: 2s;
+    transition: 5s;
+   }
 
 
 
